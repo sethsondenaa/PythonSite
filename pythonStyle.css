@@ -1,0 +1,177 @@
+body {
+    background-color: rgb(38, 81, 117);
+    width: 970px;
+    font-family: sans-serif;
+}
+
+#header {
+    display: inline-block;
+    width: 970px;
+}
+
+#header img {
+    float: left;
+    width: 450px;
+    height: 100px;
+}
+
+#header p {
+    float: right;
+    margin-bottom: 2px;
+    color: white;
+}
+
+#header button {
+    background-color: blue;
+    padding: 5px 10px 5px 10px;
+    color: white;
+    box-shadow: 2px 2px black;
+}
+
+#header a {
+    color: rgb(214, 179, 0);
+    padding: 0px 2px 0px 2px;
+}
+
+#navSearch {
+    background-color: rgb(68, 68, 68);
+    padding: 10px 30px 10px 30px;
+    border-radius: 15px;
+    float: right;
+    box-shadow: 2px 2px black;
+    clear: right;
+}
+
+#search {
+    text-align: center;
+    margin: 5px;
+}
+
+#navBar {
+    color: white;
+    list-style-type: none;
+    background: linear-gradient(#356690, #4A7FAD, #356690);
+    padding: 15px;
+    border-radius: 10px;
+    clear: both;
+    margin: 0px 25px 0px 75px;
+    font-size: 15pt;
+    box-shadow: 2px 2px black;
+}
+
+#navBar li {
+    display: inline;
+    margin-left: 40px;
+}
+
+#links {
+    color: rgb(214, 179, 0);
+    margin: 35px 0px 0px 80px;
+    text-align: center;
+    padding-left: 5px;
+    float: left;
+    list-style-position: inside;
+}
+
+#links li {
+    margin-bottom: 5px;
+    font-size: 15px;
+    width: 175px;
+}
+
+#links a {
+    color: white;
+}
+
+#zen {
+    color: white;
+    float: right;
+    width: 635px;
+    margin-right: 50px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.pop {
+    color: rgb(214, 179, 0);
+    font-size: 15pt;
+    font-style: italic;
+    margin-top: 10px;
+    padding: 0px;
+}
+
+#zenOfPython {
+    font-size: 13pt;
+}
+
+#bottom {
+    text-align: center;
+    background-color: white;
+    display: inline-block;
+    width: 970px;
+}
+
+#bottom h1 {
+    font-size: 18pt;
+    margin: 10px 0px 0px 0px;
+}
+
+#left {
+    float: left;
+    width: 400px;
+    margin: 10px 0px 25px 100px;
+    border-top: 5px solid #4A7FAD;
+}
+
+#right {
+    float: right;
+    width: 400px;
+    margin: 10px 50px 0px 0px;
+    border-top: 5px solid #4A7FAD;
+}
+
+#bottom p {
+    width: 325px;
+    font-size: 13px;
+}
+
+#pyPI {
+    font-size: 11px;
+    color: #4A7FAD;
+}
+
+#bottom ul {
+    color: black;
+    list-style-type: square;
+    width: 325px;
+}
+
+#bottom a {
+    color: #4A7FAD;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+#footer {
+    margin: auto;
+    text-align: center;
+}
+
+#footer ul {
+    list-style-type: none;
+}
+
+#footer li {
+    display: inline;
+    padding: 0px 0px 0px 25px;
+}
+
+#footer a {
+    text-decoration: none;
+    color: #4A7FAD;
+}
+
+#footer p {
+    font-size: 10px;
+    color: #4A7FAD;
+}
